@@ -195,7 +195,8 @@ export default function StartEndJob() {
         sx={{
           textAlign: "center",
           fontWeight: "bold",
-          fontSize: "18px",
+          fontSize: {xs: "14px", sm: "20px"},
+          color: 'red',
           my: 4,
         }}
       >
